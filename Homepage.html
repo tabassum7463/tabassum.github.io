@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Playlist Generator</title>
+</head>
+<body background="C:\Users\Tabassum Nigar\Desktop\project_2\mood\5208106.jpg">
+    <div class="container">
+        <h1>MELODY MINGLE</h1>
+        <label for="mood">Select your mood:</label>
+        <select id="mood">
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="energetic">Energetic</option>
+            <option value="romantic">Romantic</option>
+            <option value="devotional">Devotional</option>
+            <!-- Add more moods as needed -->
+        </select>
+        <button onclick="generatePlaylist()">Generate Playlist</button>
+        <div id="playlist"></div>
+    </div>
+<footer class="footer">
+	<a href= "about.html" style="margin-right: 10px;">OUR TEAM</a>
+  	<p>&copy; 2023 MELODY MINGLE. All rights reserved.</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

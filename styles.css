@@ -1,0 +1,31 @@
+﻿body {
+    background-image:"C:\Users\Windows\OneDrive\Pictures\9561d025efe0faa6c480560cd87fc855.jpg";
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+    background-color: pink;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #151414;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0px;
+  }
