@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration & Exam Details</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration</h1>
+        <form id="registration-form">
+            
+            <div class="form-group">
+                
+                <label for="student-name">Name:</label>
+                <input type="text" id="student-name" required>
+            </div>
+            <div class="form-group">
+                <label for="student-id">Student ID:</label>
+                <input type="text" id="student-id" required>
+            </div>
+            <div class="form-group">
+                <label for="student-email">Email:</label>
+                <input type="email" id="student-email" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+
+        <h1>Exam Details</h1>
+        <form id="exam-form">
+            <div class="form-group">
+                <label for="exam-name">Exam Name:</label>
+                <input type="text" id="exam-name" required>
+            </div>
+            <div class="form-group">
+                <label for="exam-date">Exam Date:</label>
+                <input type="date" id="exam-date" required>
+            </div>
+            <div class="form-group">
+                <label for="student-id-exam">Student ID:</label>
+                <input type="text" id="student-id-exam" required>
+            </div>
+            <div class="form-group">
+                <label for="exam-grade">Grade:</label>
+                <input type="text" id="exam-grade" required>
+            </div>
+            <button type="submit">Submit Exam Details</button>
+        </form>
+        <table border="2">
+            <th>Registered Students</th><tr>
+            <td><ul id="student-list"></ul></td></tr></table>
+        
+
+        <br>
+        <table border="2">
+            <th>Exam Records</th><tr>
+            <td><ul id="exam-list"></ul></td></tr></table>
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
